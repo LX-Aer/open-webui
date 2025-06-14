@@ -443,6 +443,7 @@ input[type='number'] {
 	@apply bg-white dark:bg-gray-900 dark:border-gray-850 text-xs;
 }
 
+/* LX Master Styles */
 /* Target elements with all the given classes */
 .absolute.top-0.left-0.w-full.h-full.bg-linear-to-t.from-white.to-white\/85.dark\:from-gray-900.dark\:to-gray-900\/90.z-0 {
 	/* Add your desired styles here */
@@ -462,12 +463,12 @@ input[type='number'] {
 
 .flex-1.flex.flex-col.relative.w-full.shadow-lg.rounded-3xl.border.border-gray-50.dark\:border-gray-850.hover\:border-gray-100.focus-within\:border-gray-100.hover\:dark\:border-gray-800.focus-within\:dark\:border-gray-800.transition.px-1.bg-white\/90.dark\:bg-gray-400\/5.dark\:text-gray-100 {
 	/*background: rgba(255, 255, 255, 0.2);*/
-	background: rgba(34, 51, 119, 0.2);
+	/*background: rgba(34, 51, 119, 0.2);*/
 	/*background: none*/
 	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(5px);
+	/*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
 	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	overflow: hidden;
 	/*background-size: cover;*/
@@ -476,12 +477,12 @@ input[type='number'] {
 
 .glass {
 	/*background: rgba(255, 255, 255, 0.2);*/
-	background: rgba(34, 51, 119, 0.2);
+	/*background: rgba(34, 51, 119, 0.2);*/
 	/*background: none*/
 	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(5px);
+	/*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
 	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	overflow: hidden;
 	/*background-size: cover;*/
@@ -493,11 +494,11 @@ input[type='number'] {
 }
 
 .standardGlass {
-	background: rgba(255, 255, 255, 0.2);
+	/*background: rgba(255, 255, 255, 0.2);*/
 	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(5px);
+	/*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
 	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	overflow: hidden;
 	box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.25);
@@ -506,9 +507,9 @@ input[type='number'] {
 .highVisibilityGlass {
 	/*background: rgba(255, 255, 255, 0.2);*/
 	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(15px);
+	/*box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);*/
 	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	overflow: hidden;
 	box-shadow: 0px 0px 10px 15px rgba(0, 0, 0, 0.25);
